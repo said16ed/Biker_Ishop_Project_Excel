@@ -47,7 +47,7 @@ The dataset contains demographic and socioeconomic information about customers, 
 
 The dataset is intended exclusively for educational purposes and portfolio development.
 
-- < a href="https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx">
+[Texto del enlace](https://github.com/said16ed/Biker_Ishop_Project_Excel/blob/main/Excel%20Project%20Dataset.xlsx)
 
 # 4. Data Cleaning (Process)
 
