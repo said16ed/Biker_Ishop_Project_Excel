@@ -47,7 +47,7 @@ The dataset contains demographic and socioeconomic information about customers, 
 
 The dataset is intended exclusively for educational purposes and portfolio development.
 
-[Texto del enlace](https://github.com/said16ed/Biker_Ishop_Project_Excel/blob/main/Excel%20Project%20Dataset.xlsx)
+[Data Set](https://github.com/said16ed/Biker_Ishop_Project_Excel/blob/main/Excel%20Project%20Dataset.xlsx)
 
 # 4. Data Cleaning (Process)
 
@@ -118,7 +118,8 @@ Customers were grouped into different age categories to identify which segment p
 
 The average annual income of customers was analyzed across different regions. This comparison provides insights into regional purchasing power and helps identify markets with greater sales potential.
 
-<img width="664" height="452" alt="image_4" src="https://github.com/user-attachments/assets/0b37bc6e-e278-4c09-a97e-40a2236d1d3e" />
+<img width="749" height="368" alt="image" src="https://github.com/user-attachments/assets/b6e2af02-8108-4ed7-8f69-7fab0c552c54" />
+
 
 # Key Performance Indicators (KPIs)
 
