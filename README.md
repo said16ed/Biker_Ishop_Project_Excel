@@ -222,18 +222,3 @@ Implement region-specific promotional campaigns based on customer demographics, 
 # Conclusion
 
 This project demonstrates how Microsoft Excel can be used as an effective business intelligence tool to transform raw data into meaningful insights. The analysis identified several factors that influence bicycle purchasing decisions, including customer age, occupation, annual income, and commuting distance. These findings provide valuable information that can support marketing initiatives, customer segmentation strategies, and business decision-making.Overall, the dashboard enables stakeholders to better understand customer behavior and make more informed, data-driven decisions.
-
-# Skills Demonstrated
-
-During this project, the following technical and analytical skills were applied:
-
-- Data Cleaning
-- Data Transformation
-- Data Analysis
-- Pivot Tables
-- Pivot Charts
-- Dashboard Design
-- Data Visualization
-- Business Analysis
-- Data Storytelling
-- Microsoft Excel
