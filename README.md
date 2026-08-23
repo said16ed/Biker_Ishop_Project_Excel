@@ -148,19 +148,6 @@ This functionality enables users to explore the data from multiple perspectives 
 
 <img width="943" height="561" alt="Dashboard" src="https://github.com/user-attachments/assets/1f4a5954-3459-411c-83a5-b6ec10978b05" />
 
-# Tools Used
-
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- IF Function
-- Data Cleaning
-- Data Transformation
-- Data Analysis
-- Dashboard Design
-- Data Visualization
-
 - # 7. Exploratory Data Analysis (Analyze)
 
 Using the interactive dashboard, the dataset was explored to identify customer purchasing patterns and answer the business questions defined at the beginning of the project. The analysis focused on demographic, socioeconomic, and behavioral variables to better understand the factors influencing bicycle purchases.
