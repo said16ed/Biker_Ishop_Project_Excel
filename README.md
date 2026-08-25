@@ -1,211 +1,132 @@
-<img width="1983" height="793" alt="Panoramico GitHub" src="https://github.com/user-attachments/assets/802753eb-cdab-4f02-a527-e052c691e843" />
+<img width="1983" height="793" alt="Panoramico GitHub" src="https://github.com/user-attachments/assets/c66f0fde-9a04-4177-9da3-dbc779c738bb" />
 
-# 🚲 Bike Shop Sales Analysis | Excel Dashboard
+# Bike IShop Sales Analysis | Excel Dashboard
 
-# 1. Project Description
+## 1. Project Description
 
-This project presents an interactive dashboard developed in Microsoft Excel to analyze the purchasing behavior of customers from a fictional bicycle retail company called **Bike IShop**.
-The objective of the analysis is to identify the demographic, economic, and social factors that influence customers' purchasing decisions. Based on these findings, business recommendations are provided to help improve marketing strategies and support data-driven decision-making.
-The project follows the six phases of the **Google Data Analytics Professional Certificate** framework:
+This project presents an interactive dashboard developed in Microsoft Excel to analyze the purchasing behavior of customers from a bicycle retail company called **Bike IShop**.
 
-- Ask
-- Prepare
-- Process
-- Analyze
-- Share
-- Act
+### Project Objective
 
-# 2. Business Problem (Ask)
+The goal of this analysis is to identify the demographic, economic, and social factors that influence customers' purchasing decisions. Based on these findings, business recommendations are provided to help improve marketing strategies, address the problems outlined below, and support data-driven decision-making.
 
-Bike IShop is a bicycle retail company operating in multiple regions. Recently, the company has experienced a decline in bicycle sales and wants to better understand which customer characteristics have the greatest influence on purchasing decisions. By analyzing customer data, the company aims to identify opportunities to improve its marketing strategy, better segment its customers, and increase sales. To achieve this objective, the following business questions were defined:
+## 2. Business Problem (Ask)
+
+Bike IShop is a bicycle retail company operating in multiple regions (North America, Pacific, and Europe). Recently, the company has experienced a decline in bicycle sales and wants to better understand which customer characteristics have the greatest influence on purchasing decisions, in order to identify opportunities to improve its marketing strategy, better segment its customers, and increase sales.
+
+The following business questions were defined:
 
 - Which age group purchases the most bicycles?
-- Which occupations have the highest purchase rate?
+- Does the customer's occupation influence the decision to purchase a bicycle?
 - Does education level influence bicycle purchases?
 - Are higher-income customers more likely to purchase a bicycle?
 - How does commuting distance affect customers' purchasing decisions?
 
-## Project Objective
+## 3. About the Dataset (Prepare)
 
-Develop an interactive dashboard in Microsoft Excel to analyze customer purchasing behavior and identify the key factors that influence bicycle purchases, providing valuable insights to support business decision-making.
+The dataset contains information about customers who attempt to purchase a bicycle through the company's website, including data such as:
 
-# 3. About the Dataset (Prepare)
-
-This project uses a fictional dataset published by **Alex The Analyst** on GitHub.
-The dataset contains demographic and socioeconomic information about customers, including:
-
-- Age
-- Gender
+- Customer ID
 - Marital Status
+- Gender
+- Annual Income
+- Number of Children
 - Education
 - Occupation
-- Annual Income
+- Home Owner
 - Number of Cars
 - Commute Distance
 - Region
+- Age
 - Bicycle Purchase Decision
 
-The dataset is intended exclusively for educational purposes and portfolio development.
+## 4. Data Cleaning (Process)
 
-[Dataset](https://github.com/said16ed/bike-sales-analysis-excel/blob/main/bike-sales-dataset.xlsx)
+The following changes were made to the dataset:
 
-# 4. Data Cleaning (Process)
-
-Before performing the analysis, the dataset was cleaned and prepared to ensure data quality and consistency. The main data cleaning tasks included:
-
-- Reviewing the dataset for missing or incomplete values.
-- Verifying data consistency.
-- Standardizing categorical values.
-- Correcting formatting inconsistencies.
-
-Several categorical variables were standardized to improve readability:
-
-### Marital Status
-
+**Marital Status**
 - M → Married
 - S → Single
 
-### Gender
-
+**Gender**
 - M → Male
 - F → Female
 
-Additionally, the **Commute Distance** column was standardized by replacing the value **"10+ Miles"** with **"10 Miles +"** to maintain a consistent sorting order within Pivot Tables.
-
-Finally, a new variable called **Age Brackets** was created to classify customers into three age groups:
-
-- Adolescent (Under 18 years old)
+**New column: Age Brackets**
+- Adolescent (under 18 years old)
 - Middle Age (18–60 years old)
-- Old (Over 60 years old)
+- Old (over 60 years old)
 
-This classification was created using an IF function, allowing customers to be automatically grouped according to their age.
+After completing the data cleaning process, the dataset was organized and structured to facilitate analysis using Pivot Tables and Pivot Charts in Microsoft Excel.
 
-# 5. Data Transformation and Modeling (Process)
+<img width="1960" height="837" alt="imagen1" src="https://github.com/user-attachments/assets/8a13d294-4d77-431a-9060-34a8c264060f" />
 
-After completing the data cleaning process, the dataset was organized and structured to facilitate analysis using Pivot Tables and Pivot Charts in Microsoft Excel. Several Pivot Tables were created to answer the business questions defined at the beginning of the project. Each visualization was designed to identify customer purchasing patterns and provide meaningful business insights. The main variables analyzed include:
+## 5. Exploratory Data Analysis (Analyze)
 
-- Gender
-- Age Brackets
-- Occupation
-- Annual Income
-- Region
-- Commute Distance
-- Purchased Bike
-
-These variables were combined to compare customer behavior across different demographic and socioeconomic segments.
-
-# Data Visualizations
-
-## Bicycle Purchases by Gender
-
-A bar chart was created to compare bicycle purchases between male and female customers. This visualization helps determine whether gender influences purchasing behavior and identifies which group has the highest purchase rate.
-
-<img width="705" height="404" alt="image_1" src="https://github.com/user-attachments/assets/4602dfb9-4ab9-4c32-9ecf-ecac07adb114" />
-
-## Bicycle Purchases by Commute Distance
-
-Customer purchasing behavior was analyzed based on the distance they travel to work. The objective of this analysis is to determine whether commuting distance affects the likelihood of purchasing a bicycle.
-
-<img width="977" height="256" alt="image_2" src="https://github.com/user-attachments/assets/f77f434d-6804-491e-9d68-134e70853eb6" />
-
-## Bicycle Purchases by Age Group
+### Which age group purchases the most bicycles?
 
 Customers were grouped into different age categories to identify which segment purchases the most bicycles. This visualization highlights the age group that represents the company's primary target market.
 
-<img width="919" height="261" alt="image_3" src="https://github.com/user-attachments/assets/aa5b1c5d-6bb7-4523-8c44-fb55cedcfade" />
+<img width="1198" height="892" alt="imagen2" src="https://github.com/user-attachments/assets/3286b087-a3c9-460e-8b3f-415d57a0f1cb" />
 
-## Average Income by Region
+The analysis shows that customers in the Middle Age (18–60 years old) category represent the largest group of bicycle buyers. In contrast, customers classified as Old (over 60 years old) have a significantly lower purchase rate, while no bicycle purchases were recorded for the Adolescent group.
 
-The average annual income of customers was analyzed across different regions. This comparison provides insights into regional purchasing power and helps identify markets with greater sales potential.
+**Key Insight:** The company's primary target market consists of customers between 18 and 60 years old, making this age group the most attractive segment for future marketing campaigns.
 
-<img width="749" height="368" alt="image" src="https://github.com/user-attachments/assets/b6e2af02-8108-4ed7-8f69-7fab0c552c54" />
+### Does the customer's occupation influence the decision to purchase a bicycle?
 
+Customers working in Professional and Skilled Manual occupations account for the highest proportion of bicycle purchases. Among these groups, professionals represent the largest number of buyers. However, within Skilled Manual there is also a high share of customers who choose not to buy a bicycle, and across the remaining occupations the number of non-buyers is higher than the number of buyers.
 
-# Key Performance Indicators (KPIs)
+<img width="1976" height="782" alt="imagen3" src="https://github.com/user-attachments/assets/97b02ced-7e66-4ab3-b50d-164d904ffe59" />
 
-To provide a high-level overview of the dataset, the following key metrics were calculated:
+**Key Insight:** Customers employed in professional occupations appear to have a greater likelihood of purchasing bicycles, making them valuable target segments for future promotional campaigns.
 
-- Total Customers
-- Total Bicycle Buyers
-- Average Customer Age
-- Average Annual Income
-- Average Commute Distance
+### Does education level influence bicycle purchases?
 
-These KPIs provide a quick summary of customer characteristics and support the interpretation of the dashboard's visualizations.
+Based on the charts, customers with a Bachelors degree show the highest number of buyers compared to non-buyers, suggesting this should be a key target audience. This could be related to the fact that many customers with a university education (Bachelors and Graduate Degree) also hold professional occupations, although this relationship was not directly cross-analyzed in this project.
 
-# 6. Interactive Dashboard (Share)
+<img width="1989" height="738" alt="imagen4" src="https://github.com/user-attachments/assets/2bfd8f11-1d2f-442d-a75a-7196b01145df" />
 
-An interactive dashboard was developed in Microsoft Excel to consolidate the most important insights into a single, user-friendly interface. The dashboard includes interactive slicers that allow users to dynamically filter the information by:
+**Key Insight:** Customers with a Bachelor's degree or a Graduate Degree tend to purchase more bicycles compared to other education levels.
 
-- Marital Status
-- Region
-- Education
-- Occupation
+### Are higher-income customers more likely to purchase a bicycle?
 
-This functionality enables users to explore the data from multiple perspectives and supports more effective business decision-making.
+The analysis suggests a positive relationship between annual income and bicycle purchases: customers with higher annual incomes tend to purchase bicycles more frequently than lower-income customers. When comparing the overall average income by region, customers in the **Pacific** show the highest average annual income, closely followed by **North America** — although, within North America, the Old age segment records the single highest average value in the entire dataset. Customers in **Europe** show, on average, the lowest annual income of the three regions.
 
-## Dashboard
+<img width="1992" height="730" alt="imagen5" src="https://github.com/user-attachments/assets/4c3849b3-1cd8-48ea-a35c-8761bddd783c" />
 
-<img width="943" height="561" alt="Dashboard" src="https://github.com/user-attachments/assets/1f4a5954-3459-411c-83a5-b6ec10978b05" />
+**Key Insight:** Purchasing power appears to be an important factor influencing bicycle purchases. Marketing strategies and product offerings could be adjusted based on the income characteristics of each region.
 
-- # 7. Exploratory Data Analysis (Analyze)
+### How does commuting distance affect customers' purchasing decisions?
 
-Using the interactive dashboard, the dataset was explored to identify customer purchasing patterns and answer the business questions defined at the beginning of the project. The analysis focused on demographic, socioeconomic, and behavioral variables to better understand the factors influencing bicycle purchases.
+Customer purchasing behavior varies based on the distance traveled to work. Most bicycle purchases were made by customers with a commuting distance of 0 to 1 mile, while purchase frequency decreases as commuting distance increases.
 
-# Business Questions
+<img width="2000" height="805" alt="imagen6" src="https://github.com/user-attachments/assets/bef9cc9e-77c8-4491-8ce7-c8900a8d9255" />
 
-## Which age group purchases the most bicycles?
+**Key Insight:** The results suggest that bicycles are primarily used as a practical transportation option for short commutes, of up to 1 mile, rather than for long-distance travel.
 
-The analysis shows that customers in the **Middle Age (18–60 years old)** category represent the largest group of bicycle buyers. In contrast, customers classified as **Old (over 60 years old)** have a significantly lower purchase rate, while no bicycle purchases were recorded for the **Adolescent** group.
+## 6. Dashboard (Share)
 
-### Key Insight
+Finally, an interactive dashboard was developed in Microsoft Excel to consolidate the most important findings into a single, easy-to-use interface.
 
-The company's primary target market consists of customers between **18 and 60 years old**, making this age group the most attractive segment for future marketing campaigns.
+<img width="1823" height="997" alt="imagen7" src="https://github.com/user-attachments/assets/40dc0a33-8f8e-4e5a-a1c9-dd605d56db8b" />
 
-## Which occupations have the highest purchase rate?
-
-The dashboard indicates that customers working in **Professional** and **Skilled Manual** occupations account for the highest proportion of bicycle purchases. Among these groups, professionals represent the largest number of buyers.
-
-### Key Insight
-
-Customers employed in professional and technical occupations appear to have a greater likelihood of purchasing bicycles, making them valuable target segments for future promotional campaigns.
-
-## Are higher-income customers more likely to purchase bicycles?
-
-The analysis suggests a positive relationship between annual income and bicycle purchases. Customers with higher annual incomes tend to purchase bicycles more frequently than lower-income customers. Additionally, customers located in **Europe** have the highest average annual income compared to those in **North America** and **Pacific**.
-
-### Key Insight
-
-Purchasing power appears to be an important factor influencing bicycle purchases. Marketing strategies and product offerings could be adjusted based on the income characteristics of each region.
-
-## How does commute distance affect bicycle purchases?
-
-Customer purchasing behavior varies according to the distance traveled to work. Most bicycle purchases were made by customers with relatively short commuting distances, while purchase frequency decreases as commuting distance increases.
-
-### Key Insight
-
-The results suggest that bicycles are primarily used as a practical transportation option for short-distance commuting rather than long-distance travel.
-
-# 8. Business Recommendations (Act)
+## 7. Business Recommendations (Act)
 
 Based on the insights obtained from the analysis, several business recommendations can be proposed to improve Bike IShop's marketing strategy and increase sales performance.
 
-## Marketing Strategy
+**Marketing Strategy**
+Focus advertising campaigns on customers between 18 and 60 years old, particularly those with medium to high annual incomes, as they represent the company's primary customer segment. Additionally, marketing campaigns should be adapted according to the purchasing power of customers in different regions.
 
-Focus advertising campaigns on customers between **18 and 60 years old**, particularly those with medium to high annual incomes, as they represent the company's primary customer segment. Additionally, marketing campaigns should be adapted according to the purchasing power of customers in different regions.
+**Customer Segmentation**
+Develop personalized promotions targeting customers employed in Professional and Skilled Manual occupations, since these groups demonstrate the highest purchase rates. Segmenting customers according to demographic and occupational characteristics can improve marketing efficiency and customer engagement.
 
-## Customer Segmentation
-
-Develop personalized promotions targeting customers employed in **Professional** and **Skilled Manual** occupations, since these groups demonstrate the highest purchase rates. Segmenting customers according to demographic and occupational characteristics can improve marketing efficiency and customer engagement.
-
-## Product Strategy
-
+**Product Strategy**
 Promote urban and commuter bicycles designed for customers who travel short distances to work. This strategy aligns with the purchasing behavior observed in the analysis and may increase customer satisfaction while boosting sales.
 
-## Sales Strategy
+**Sales Strategy**
+Implement region-specific promotional campaigns based on customer demographics, purchasing behavior, and income levels.
 
-Implement region-specific promotional campaigns based on customer demographics, purchasing behavior, and income levels. Using data-driven segmentation can improve resource allocation and maximize marketing effectiveness.
+## Conclusion
 
-# Conclusion
-
-This project demonstrates how Microsoft Excel can be used as an effective business intelligence tool to transform raw data into meaningful insights. The analysis identified several factors that influence bicycle purchasing decisions, including customer age, occupation, annual income, and commuting distance. These findings provide valuable information that can support marketing initiatives, customer segmentation strategies, and business decision-making.Overall, the dashboard enables stakeholders to better understand customer behavior and make more informed, data-driven decisions.
+This project demonstrates how Microsoft Excel can be used as an effective business intelligence tool to transform raw data into meaningful insights. The analysis identified several factors that influence bicycle purchasing decisions, including customer age, occupation, education level, annual income, and commuting distance. These findings provide valuable information that can support marketing initiatives, customer segmentation strategies, and business decision-making.
