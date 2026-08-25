@@ -40,7 +40,7 @@ The dataset contains information about customers who attempt to purchase a bicyc
 - Age
 - Bicycle Purchase Decision
 
-[Dataset]([https://tu-enlace.com](https://github.com/said16ed/bike-sales-analysis-excel/blob/main/excel-bike-sales-dataset.xlsx)) 
+[Dataset](https://github.com/said16ed/bike-sales-analysis-excel/blob/main/excel-bike-sales-dataset.xlsx).
 
 ## 4. Data Cleaning (Process)
 
@@ -113,7 +113,7 @@ Finally, an interactive dashboard was developed in Microsoft Excel to consolidat
 
 <img width="1823" height="997" alt="imagen7" src="https://github.com/user-attachments/assets/40dc0a33-8f8e-4e5a-a1c9-dd605d56db8b" />
 
-[Dashboard]([https://tu-enlace.com](https://github.com/said16ed/bike-sales-analysis-excel/blob/main/excel-bike-sales-dashboard.xlsx)) 
+[Dashboard](https://github.com/said16ed/bike-sales-analysis-excel/blob/main/excel-bike-sales-dashboard.xlsx).
 
 ## 7. Business Recommendations (Act)
 
